@@ -19,6 +19,10 @@ export default function Galeria({navigation}){
         source={require('../../assets/image5.jpg')} style={estilos.image} />
         <Animatable.Image animation="fadeInLeft" delay={200}
         source={require('../../assets/image6.jpg')} style={estilos.image} />
+        <Animatable.Image animation="fadeInLeft" delay={200}
+         source={require('../../assets/image1.jpg')} style={estilos.image} />
+        <Animatable.Image animation="fadeInLeft" delay={200}
+        source={require('../../assets/image2.jpg')} style={estilos.image} />
       </View>
     </View>
   );
@@ -40,10 +44,10 @@ const estilos = StyleSheet.create({
     display:'inline-block',
     paddinVertical: '5%',
     paddingHorizontal: '5%',
-    marginTop:'10%'
+    marginTop:'0%'
   },
   titulo:{
-    marginTop:'-80%',
+    marginTop:'0%',
     textAlign: 'center',
     fontSize: 24,
     color:"#fff",
